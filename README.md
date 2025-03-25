@@ -47,20 +47,20 @@ CREATE TABLE produtos (
 
 <h3>Instale as dependências no backend:</h3>
 
-entre na pasta backend e execute os comandos:
-npm init -y
-npm install express mysql2 cors body-parser
+entre na pasta backend e execute os comandos:          
+npm init -y                                             
+npm install express mysql2 cors body-parser            <br>
 
 <br>
 <br>
 
 <h3>Instale as dependências no frontend:</h3>
 
-entre na pasta frontend e execute os comandos:
-npx create-react-app .
-npm install axios
-npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
-
+entre na pasta frontend e execute os comandos:                                        <br>
+npx create-react-app .                                                                <br>
+npm install axios                                                                     <br>
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material          <br>
+    
 <br>
 <br>
 
