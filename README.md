@@ -72,3 +72,69 @@ node app.js
 
 <h3>Para iniciar o frontend utilize o comando dentro da pasta frontend:</h3>
 npm start
+
+<br>
+<br>
+
+
+<h3>Teste as rotas da API:</h3>
+
+Use o Postman ou Insomnia para enviar requisições HTTP para as rotas da API.
+
+Exemplos de requisições:
+
+<br>
+
+Listar produtos (GET):
+
+Método: GET
+
+URL: http://localhost:5000/api/produtos
+
+Resposta esperada: Uma lista de produtos (inicialmente vazia).
+
+<br>
+
+Criar um produto (POST):
+
+Método: POST
+
+URL: http://localhost:5000/api/produtos
+
+Body (JSON):                    <br>
+{                               <br>
+    "nome": "exemplo",          <br>
+    "codigo": "exemplo",        <br>
+    "descricao": "exemplo",     <br>
+    "preco": 100                <br>
+}
+
+Resposta esperada: Produto criado com sucesso!.
+
+<br>
+
+Atualizar um produto (PUT):
+
+Método: PUT
+
+URL: http://localhost:5000/api/produtos/1 (substitua 1 pelo ID do produto que deseja atualizar)
+
+Body (JSON):                               <br>
+{                                          <br>
+    "nome": "exemplo atualizado",          <br>
+    "codigo": "exemplo atualizado",        <br>
+    "descricao": "exemplo atualizado",     <br>
+    "preco": 100                           <br>
+}
+
+Resposta esperada: Produto atualizado com sucesso!.
+
+<br>
+
+Deletar um produto (DELETE):
+
+Método: DELETE
+
+URL: http://localhost:5000/api/produtos/1 (substitua 1 pelo ID do produto que deseja deletar)
+
+Resposta esperada: Produto deletado com sucesso!.
